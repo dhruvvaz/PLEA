@@ -21,3 +21,8 @@ We welcome contributions to PLEA. Please read `CONTRIBUTING.md` for details on c
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## Frontend Styling
+- Started working on a CSS file for the project to provide a clean and modern user interface.
+- The CSS file (`style.css`) includes basic styling for the body, headers, buttons, and input fields.
+- Added responsive design considerations for better mobile compatibility.
