@@ -1,0 +1,54 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0275d8;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#userProfile, #recommendations {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #0275d8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #025aa5;
+    transition: background 0.3s;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
